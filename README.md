@@ -6,7 +6,7 @@
   [![Downloads](https://static.pepy.tech/badge/autodial)](https://pepy.tech/project/autodial)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-  [![CI Build](https://github.com/autodial-ai/autodial/actions/workflows/ci.yml/badge.svg)](https://github.com/autodial-ai/autodial/actions)
+  [![CI Build](https://github.com/ProphetDiceBot/autodial/actions/workflows/ci.yml/badge.svg)](https://github.com/ProphetDiceBot/autodial/actions)
 </div>
 
 <br>
@@ -205,6 +205,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 <div align="center">
   <i>Built with ❤️ by the Autodial Maintainers.</i><br>
-  <a href="https://github.com/autodial-ai/autodial">GitHub</a> • 
-  <a href="https://github.com/autodial-ai/autodial/issues">Issues</a>
+  <a href="https://github.com/ProphetDiceBot/autodial">GitHub</a> • 
+  <a href="https://github.com/ProphetDiceBot/autodial/issues">Issues</a>
 </div>

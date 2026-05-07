@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "autodial"
-version = "0.7.1"
+version = "0.7.2"
 description = "A self-hosted automated outbound dialer phone bot"
 requires-python = ">=3.8"
 dependencies = [
@@ -32,10 +32,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/autodial-ai/autodial"
-Repository = "https://github.com/autodial-ai/autodial.git"
-"Issue Tracker" = "https://github.com/autodial-ai/autodial/issues"
-"Documentation" = "https://github.com/autodial-ai/autodial#readme"
+Homepage = "https://github.com/ProphetDiceBot/autodial"
+Repository = "https://github.com/ProphetDiceBot/autodial.git"
+"Issue Tracker" = "https://github.com/ProphetDiceBot/autodial/issues"
+"Documentation" = "https://github.com/ProphetDiceBot/autodial#readme"
 
 [project.scripts]
 autodial = "autodial.cli:main"
