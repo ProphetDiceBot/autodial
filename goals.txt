@@ -1,0 +1,7 @@
+goals:
+
+Create a pypi package for an self hosted automated outbound dialer phone bot capable of using speech recognition and llm to navagate ivrs dtmfs and be intelegent enough to understand what dtmf or instructions are being provided to it on the call.
+the bot should log the call contextand transcript  for the user 
+the bot will be near real time in its communication
+the bot should be able to process multiple calls at the same time
+the bot will be able to broadcast a message

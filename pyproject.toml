@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autodial"
+version = "0.7.1"
+description = "A self-hosted automated outbound dialer phone bot"
+requires-python = ">=3.8"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "python-dotenv",
+    "twilio",
+    "faster-whisper",
+    "aiohttp",
+    "numpy",
+    "pydantic",
+    "requests"
+]
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Autodial Maintainers" }
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-asyncio",
+    "pytest-cov"
+]
+
+[project.urls]
+Homepage = "https://github.com/autodial-ai/autodial"
+Repository = "https://github.com/autodial-ai/autodial.git"
+"Issue Tracker" = "https://github.com/autodial-ai/autodial/issues"
+"Documentation" = "https://github.com/autodial-ai/autodial#readme"
+
+[project.scripts]
+autodial = "autodial.cli:main"
+
+[tool.setuptools]
+packages = ["autodial"]
